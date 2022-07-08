@@ -6,7 +6,7 @@ public class Start {
         array0.setSorter(new SelectionSorts());
         array0.executSorter(array1);
 
-        int[] array2 = {25, 15, -48, 26};
+        int[] array2 = {25, 15, 48, 26};
         array0.setSorter(new BubbleSort());
         array0.executSorter(array2);
 
