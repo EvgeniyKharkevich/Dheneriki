@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Start {
     public static void main(String[] args) {
         SortingContext array0 = new SortingContext();
@@ -10,5 +13,12 @@ public class Start {
         array0.setSorter(new BubbleSort());
         array0.executSorter(array2);
 
+
+        System.out.println(Arrays.toString(array1));
+        System.out.println(Arrays.toString(array2));
+
+
+
     }
+
 }
