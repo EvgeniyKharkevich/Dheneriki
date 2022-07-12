@@ -12,10 +12,7 @@ public class Start {
         array0.setSorter(new BubbleSort());
         array0.executSorter(array2);
 
-
         System.out.println(Arrays.toString(array1));
         System.out.println(Arrays.toString(array2));
-
     }
-
 }
