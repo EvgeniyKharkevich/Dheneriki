@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Start {
@@ -15,9 +14,7 @@ public class Start {
 
 
         System.out.println(Arrays.toString(array1));
-        //
-
-
+        System.out.println(Arrays.toString(array2));
 
     }
 

@@ -1,4 +1,5 @@
 class SortingContext {
+
     Sorter sorter;
 
     public void setSorter(Sorter sorter) {
@@ -7,8 +8,6 @@ class SortingContext {
 
     public int[] executSorter(int[] array) {
         sorter.sort(array);
-
-
         return array;
     }
 }

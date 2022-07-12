@@ -1,6 +1,6 @@
-import java.util.Arrays;
 
 public class BubbleSort implements Sorter {
+
     @Override
     public int[] sort(int[] array) {
         for (int x = array.length - 1; x >= 1; x--) {
@@ -13,6 +13,5 @@ public class BubbleSort implements Sorter {
             }
         }
         return array;
-
     }
 }

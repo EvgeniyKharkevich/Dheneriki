@@ -1,10 +1,10 @@
-import java.util.Arrays;
 
 public class SelectionSorts implements Sorter {
-    @Override
-    public int [] sort(int[] array) {
 
-       for (int x = 0; x < array.length - 1; x++) {
+    @Override
+    public int[] sort(int[] array) {
+
+        for (int x = 0; x < array.length - 1; x++) {
             for (int i = x + 1; i < array.length; i++) {
                 if (array[i] < array[x]) {
                     int a = array[i];
@@ -12,7 +12,7 @@ public class SelectionSorts implements Sorter {
                     array[x] = a;
                 }
             }
-       }return array;
-
+        }
+        return array;
     }
 }
